@@ -1,4 +1,4 @@
-package main
+package binarysearch
 
 import (
 	"fmt"
@@ -25,7 +25,7 @@ func Test_getSoldiers(t *testing.T) {
 		},
 		{
 			nums: []int{0, 0, 0, 0, 0},
-			want: 1,
+			want: 0,
 		},
 	}
 	for _, tt := range tests {
